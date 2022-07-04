@@ -110,13 +110,22 @@
 }
 
 .container form .goback{
-    text-align: right;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ff5361;
+    border-radius: 10px;
     margin-bottom: 20px;
-    cursor: pointer;
+    font-weight: 900;
+    color:#ff5361;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.container form .goback a{
-    color:black;
-    font-size: 20px;
+.container form .goback:hover{
+    background-color: #ff5361;
+    color: white;
 }
 
 @media screen and (max-width: 990px){
